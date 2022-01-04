@@ -1,0 +1,989 @@
+*{
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/*-------------------------------------------------------01-----------------------------------------------------*/
+/*-------------------------------------------Fixed-----------------------------------------------------*/
+
+
+#menuarea{
+    height: 80px;
+    width: 100%;
+    margin-top: 0%;
+}
+#menuarea .name{
+    height: 70px;
+    width: 23%;
+    margin: 10px;
+    margin-left: 20px;
+    float: left;
+}
+#menuarea .name a{
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: rgb(0, 66, 66);
+    transition: 2s;
+    opacity: 1;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
+#menuarea .name a:hover{
+    color: rgb(29, 63, 63);
+}
+#menuarea .links{
+    width: 60%;
+    height: 60px;
+    float: left;
+    margin: 10px;
+    margin: 10px;
+    padding-top: 14px;
+}
+#menuarea .links a{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+#menuarea .links a:hover{
+    text-decoration: line-through;
+    color: rgb(77, 5, 110);
+}
+#menuarea .social{
+    width: 10%;
+    height: 70px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+/*---------------------------------------End Fixed---------------------------------------------------*/
+
+
+/*-------------------------------------------------------02-----------------------------------------------------*/
+#namearea{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.banner{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+.head{
+    color: red;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    transition: 0.5s;
+}
+.head:hover{
+    text-shadow: 5px 5px 10px #000000;
+    transition: 0.5s;
+}
+/*-------------------------------------------------------03-----------------------------------------------------*/
+#aboutarea{
+    width: 100%;
+    height: 300px;
+    background: white;
+    margin-top: 20px;
+}
+#aboutarea #image{
+    width: 28%;
+    height: 220px;
+    float: left;
+    margin: 30px 1%;
+}
+#aboutarea #image img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+#aboutarea #para{
+    width: 68%;
+    float: left;
+}
+#aboutarea #para .p1{
+    font-size: 37px;
+    margin: 20px;
+    padding-top: 10px;
+}
+#aboutarea #para .p2{
+    font-size: 17px;
+    margin: 20px;
+    text-align: justify;
+}
+/*-------------------------------------------------------04-----------------------------------------------------*/
+#galleryarea{
+    width: 100%;
+    height: 800px;
+    padding-top: 90px;
+}
+#gpara{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#g1{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 40px 4%;
+    position: relative;
+}
+#g1 img{
+    width: 100%;
+    height: 100%;
+}
+.details{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(255,255,255,0.7);
+    padding: 10px 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+#g1:hover .details{
+    visibility: visible;
+}
+
+#g2{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 40px 4%;
+    position: relative;
+}
+#g2 img{
+    width: 100%;
+    height: 100%;
+}
+#g2:hover .details{
+    visibility: visible;
+}
+#g3{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 40px 4%;
+    position: relative;
+}
+#g3 img{
+    width: 100%;
+    height: 100%;
+}
+#g3:hover .details{
+    visibility: visible;
+}
+#g4{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 40px 4%;
+    position: relative;
+}
+#g4 img{
+    width: 100%;
+    height: 100%;
+}
+#g4:hover .details{
+    visibility: visible;
+}
+#g5{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 40px 4%;
+    position: relative;
+}
+#g5 img{
+    width: 100%;
+    height: 100%;
+}
+#g5:hover .details{
+    visibility: visible;
+}
+#g6{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 40px 4%;
+    position: relative;
+}
+#g6 img{
+    width: 100%;
+    height: 100%;
+}
+#g6:hover .details{
+    visibility: visible;
+}
+/*-------------------------------------------------------05-----------------------------------------------------*/
+#prearea{
+    width: 100%;
+    height: 700px;
+	align-items:center;
+}
+#prearea p{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+#prearea .pre1{
+    width: 30%;
+    height: 600px;
+    float: left;
+	margin:10px 1%
+}
+#prearea .pre1 img:hover{
+	opacity:1;
+	box-shadow:6px 6px 6px 6px rgba(0,0,0,0.2);
+}
+#prearea .pre1 img{
+    width: 100%;
+    height: 600px;
+    padding-left: 13px;
+    border-radius: 35px;
+	opacity:0.8;
+}
+#prearea .pre2{
+    width: 31%;
+    height: 600px;
+    float: left;
+	margin:10px 1%
+}
+#prearea .pre2 img:hover{
+	opacity:1;
+	box-shadow:6px 6px 6px 6px rgba(0,0,0,0.2);
+}
+#prearea .pre2 img{
+    width: 100%;
+    height: 600px;
+    padding-left: 18px;
+    border-radius: 35px;
+	opacity:0.8;
+}
+#prearea .pre3{
+    width: 30%;
+    height: 600px;
+    float: left;
+	margin:10px 1%
+}
+#prearea .pre3 img{
+    width: 100%;
+    height: 600px;
+    padding-left: 13px;
+    border-radius: 35px;
+	opacity:0.8;
+}
+#prearea .pre3 img:hover{
+	opacity:1;
+	box-shadow:6px 6px 6px 6px rgba(0,0,0,0.2);
+}
+/*-------------------------------------------------------06-----------------------------------------------------*/
+#contact{
+    width: 100%;
+    height: 600px;
+    padding-left: 30px;
+    margin-top: 50px;
+    background-color: rgba(245, 245, 212, 0.8);
+}
+#contact h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#contact .cphoto{
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+#contact .cphoto img{
+    width: 95%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+#contact .cform{
+    width: 60%;
+    height: 500px;
+    float: left;
+    padding: 5px 0;
+}
+#contact .cform form{
+    justify-content: center;
+    line-height: 3;
+    position: relative;
+    width: 100%;
+    font-size: 19px;
+    padding: 50px;
+}
+#contact .cform input{
+    text-decoration: none;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    letter-spacing: 2px;
+    position: relative;
+    transition: 0.5s;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: solid rgba(187, 187, 133, 0.8);
+}
+#contact .cform .send{
+    font-family:  cursive;
+    font-size: 15px;
+    margin-left: 9px;
+    color: rgb(75, 2, 75);
+    border-style: none;
+
+}
+/*-------------------------------------------------------07-----------------------------------------------------*/
+#footarea{
+    width: 100%;
+    height: 250px;
+    padding-top: 100px;
+}
+#footarea .wed1{
+    width: 20%;
+    height: 249px;
+    float: left;
+}
+#footarea .wed1 img{
+    width: 100%;
+    height: 100%;
+}
+#footarea .wed2{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+#footarea .wed2 img{
+    width: 100%;
+    height: 100%;
+}
+#footarea .wed3{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+#footarea .wed3 img{
+    width: 100%;
+    height: 100%;
+}
+#footarea .wed4{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+#footarea .wed4 img{
+    width: 100%;
+    height: 100%;
+}
+#footarea .wed5{
+    width: 20%;
+    height: 250px;
+    float: left;
+}
+#footarea .wed5 img{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------------------------------------------08-----------------------------------------------------*/
+.footerarea{
+    width: 100%;
+    height: 350px;
+    margin-top: 90px;
+}
+.footerarea{
+    padding: 40px 0;
+    color: #4b4c4d;
+}
+.footerarea .social2 img{
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+    opacity: 0.75;
+    align-items: center;
+}
+.footerarea ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.footerarea li{
+    padding: 0 10px;
+}
+.footerarea ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footerarea ul a:hover{
+    opacity: 1;
+}
+.footerarea .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+.footerarea .social2 a{
+    text-decoration: none;
+}
+
+/*-------------------------------------Aboutarea----------------------------------------------*/
+
+#aboutarea1{
+    width: 100%;
+    height: 1000px;
+    padding-top: 40px;
+    background-color: rgba(2, 2, 2, 0.07);
+}
+#aboutarea1 .about1{
+    height: 20px;
+}
+#aboutarea1 .about1 h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+#aboutarea1 .aboutpara1{
+    height: 250px;
+    padding: 1px;
+}
+#aboutarea1 .aboutpara1 p{
+    height: 180px;
+}
+#aboutarea1 .aboutpara1 .p11{
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: serif;
+}
+#aboutarea1 .photo11{
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 30%;
+}
+#aboutarea1 .photo11 img{
+    width: 400px;
+    height: 350px;
+}
+#aboutarea1 .para11{
+    height: 350px;
+}
+#aboutarea1 .para11 p{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    font-family: sans-serif;
+    line-height: 25px;
+    word-spacing: 7px;
+}
+
+
+/*-------------------------------------Galleryarea----------------------------------------------*/
+
+#galleryarea1{
+    width: 100%;
+    height: 2710px;
+    background: white;
+    padding-top: 10px;
+    padding: 30px;
+    background-color: rgba(2, 2, 2, 0.07);
+}
+#gpara1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 30px;
+}
+#galleryarea1 .g11{
+    width: 40%;
+    height: 400px;
+    margin-left: 20px;
+    float: left;
+}
+#galleryarea1 .g11 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g12{
+    width: 20%;
+    height: 400px;
+    margin-left: 20px;
+    float: left;
+}
+#galleryarea1 .g12 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g13{
+    width: 33%;
+    height: 300px;
+    margin-left: 20px;
+    float: left;
+}
+#galleryarea1 .g13 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g14{
+    width: 33%;
+    height: 450px;
+    margin-left: 20px;
+    margin: 20px;
+    float: right;
+}
+#galleryarea1 .g14 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g15{
+    width: 40%;
+    height: 350px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: left;
+}
+#galleryarea1 .g15 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g16{
+    width: 20%;
+    height: 350px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+}
+#galleryarea1 .g16 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g17{
+    width: 40%;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+#galleryarea1 .g17 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g18{
+    width: 54%;
+    height: 620px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+#galleryarea1 .g18 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g19{
+    width: 40%;
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+#galleryarea1 .g19 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g20{
+    width: 34%;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    float: left;
+}
+#galleryarea1 .g20 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g21{
+    width: 60%;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+}
+#galleryarea1 .g21 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g22{
+    width: 34%;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#galleryarea1 .g22 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g23{
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#galleryarea1 .g23 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g24{
+    width: 29%;
+    height: 300px;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#galleryarea1 .g24 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g25{
+    width: 48%;
+    height: 400px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#galleryarea1 .g25 img{
+    width: 100%;
+    height: 100%;
+}
+#galleryarea1 .g26{
+    width: 46%;
+    height: 400px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#galleryarea1 .g26 img{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------------------------Preweddingarea----------------------------------------------*/
+#prewedd1{
+    width: 100%;
+    height: 1200px;
+}
+#prewedd1 .preimg1{
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+.preimg1 p{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+#prewedd1 .prepara1{
+    width: 50%;
+    height: 300px;
+}
+.prepara1 img{
+    width: 100%;
+    height: 100%;
+}
+.preimg2{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.preimg2 img{
+    width: 100%;
+    height: 100%;
+}
+.prepara2{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.prepara2 p{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+.preimg3{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.preimg3 img{
+    width: 100%;
+    height: 100%;
+}
+.prepara3{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.prepara3 p{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+.preimg4{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.preimg4 img{
+    width: 100%;
+    height: 100%;
+}
+.prepara4{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.prepara4 p{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+
+#pregallery{
+    width: 100%;
+    height: 1800px;
+    margin-top: 30px;
+}
+
+.pre11{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.pre11 img{
+    width: 100%;
+    height: 100%;
+}
+.pre12{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.pre12 img{
+    width: 100%;
+    height: 100%;
+}
+.pre13{
+    width: 47%;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pre13 img{
+    width: 100%;
+    height: 100%;
+}
+.pre14{
+    width: 47%;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.pre14 img{
+    width: 100%;
+    height: 100%;
+}
+.pre15{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.pre15 img{
+    width: 100%;
+    height: 100%;
+}
+.pre16{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.pre16 img{
+    width: 100%;
+    height: 100%;
+}
+.pre17{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.pre17 img{
+    width: 100%;
+    height: 100%;
+}
+.pre18{
+    width: 47%;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pre18 img{
+    width: 100%;
+    height: 100%;
+}
+.pre19{
+    width: 47%;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.pre19 img{
+    width: 100%;
+    height: 100%;
+}
+.pre20{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.pre20 img{
+    width: 100%;
+    height: 100%;
+}
+.pre21{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.pre21 img{
+    width: 100%;
+    height: 100%;
+}
+.pre22{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.pre22 img{
+    width: 100%;
+    height: 100%;
+}
+.pre23{
+    width: 47%;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pre23 img{
+    width: 100%;
+    height: 100%;
+}
+.pre24{
+    width: 47%;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.pre24 img{
+    width: 100%;
+    height: 100%;
+}
+.pre25{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.pre25 img{
+    width: 100%;
+    height: 100%;
+}
+.pre26{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.pre26 img{
+    width: 100%;
+    height: 100%;
+}
+.pre27{
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.pre27 img{
+    width: 100%;
+    height: 100%;
+}
+.pre28{
+    width: 47%;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pre28 img{
+    width: 100%;
+    height: 100%;
+}
